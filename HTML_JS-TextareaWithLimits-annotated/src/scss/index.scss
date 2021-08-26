@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.field {
+
+    .field__input {
+    }
+}
+
+.textareaWithLimits {
+
+    .textareaWithLimits__input {
+        display: inline-block;
+        
+    }
+
+    .textareaWithLimits__limit {
+        text-align: center;
+        display: inline-block;
+        width: 40px;
+        border-radius: 10px;
+    }
+}
+
+.bg-ok {
+    background-color: green;
+    color: white;
+}
+
+.bg-warn {
+    background-color: yellow;
+}
+
+.bg-stop {
+    background-color: red;
+    color: white;
+}
